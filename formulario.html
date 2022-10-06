@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+    <title>Formulário Freelancer</title>
+</head>
+
+<body>
+
+    
+        <div>
+            <h1 id="titulo">Formulário</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+
+        <form>
+
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" class="barra" required>
+                </div>
+
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" class="barra" required>
+                </div>
+            
+
+                <div class="campo">
+                    <label for="email"><strong>Email</strong></label>
+                    <input type="email" name="email" id="email" class="barra" required>
+                </div>
+
+                <div class="campo">
+
+                    <label for="telefone"><strong>Telefone</strong></label>
+                    <input type="telefone" name="telefone" id="telefone" class="barra" required>
+                </div>
+            
+
+
+
+            <div class="campo">
+                <label><strong>Qual você é ?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+            </div>
+            
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <div class="campo">
+                <label for="Turno"><strong>Turno</strong></label>
+                <select id="Turno" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong><b>Selecione as linguagens que você utiliza:</b></strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> JavaScript</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                    <label for="tecnologia4"> PHP</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5"> C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
+                    <label for="tecnologia6"> Python</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
+                    <label for="tecnologia7"> Java</label>
+                </div>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <br>
+                    <label><strong><b>Banco de dados:</b></strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="MYSQL">
+                    <label for="tecnologia1"> MYSQL</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="Postgresql">
+                    <label for="tecnologia2"> Postgresql</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="MongoDB">
+                    <label for="tecnologia3"> MongoDB</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="N/A">
+                    <label for="tecnologia4"> N/A</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Outra">
+                    <label for="tecnologia5"> Outras</label>
+
+                </div>
+            
+
+        <br>
+            <form>
+                <br>
+                <label for="hora-cons">Horário: </label>
+                <input id="hora-cons" type="time" name="hora-cons">
+            </form>
+            <fieldset>
+                <br>
+            <label><Strong>Data Prevista:</Strong></label>
+            <input id="date" type="date">
+            </fieldset>
+
+            <fieldset>
+                <br>
+                <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            </fieldset>
+            <div>
+                <fieldset>
+                    <button class="botao" type="submit" onsubmit="">Concluído</button>
+
+                </fieldset>
+            </div> 
+        
+           
+             
+    
+        </form>
+ 
+</body>
+
+</html>
